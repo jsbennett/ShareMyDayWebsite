@@ -1,8 +1,17 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+  color: #01396D;
+}
+
+a:hover {
+  color: #609af7
+}
+
+.nav-bar-container {
+  padding: 0;
+  border-bottom: 5px solid #01396D;
+  box-shadow: 0 8px 6px -6px #01396D;
 }

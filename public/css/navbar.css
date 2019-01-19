@@ -1,0 +1,32 @@
+.nav-bar-compontents-container {
+    display: table;
+}
+
+.menu-option-container {
+    padding: 0 40px;
+    font-size: 45px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.logo-container {
+    padding: 0 20px;
+    padding-bottom: 20px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.about-span,
+.contact-us-span {
+    border-right: 3px solid #01396D;
+}
+
+.menu-option-container a {
+    text-decoration: none;
+}
+
+.about-span,
+.contact-us-span,
+.faq-span {
+    padding: 0 20px;
+}
