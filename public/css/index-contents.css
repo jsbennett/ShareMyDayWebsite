@@ -1,0 +1,56 @@
+/*
+
+*/
+.grid-container {
+    display: grid;
+    grid-template: repeat(10, [row] minmax(120px, 1fr)) / repeat(5, [col] 1fr);
+    grid-gap: 20px;
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6 {
+    align-items: center;
+    justify-items: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 4em;
+    line-height: 1;
+    color: white;
+}
+
+.item-1 {
+    grid-column: col 1 / span 3;
+    grid-row: row 1 /span 3;
+    background: white;
+    opacity: 0.9;
+}
+
+.item-1 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.item-2 {
+    grid-column: col 3 /span 3;
+    grid-row: row 2 / span 3;
+    background: #01396D;
+    opacity: 0.8;
+}
+
+.item-3 {
+    grid-column: col 1/span 3;
+    grid-row: row 5 / span 3;
+    background: linear-gradient(to top, #d38312, #a83279);
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.item-4 {
+    grid-column: col 3 / span 3;
+    grid-row: row 7 / span 3;
+    background: linear-gradient(to left, #b3ffab, #12fff7);
+}

@@ -1,3 +1,7 @@
+html {
+  background: #f2f9fc;
+}
+
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
@@ -14,4 +18,8 @@ a:hover {
   padding: 0;
   border-bottom: 5px solid #01396D;
   box-shadow: 0 8px 6px -6px #01396D;
+}
+
+.contents-container {
+  padding: 20px;
 }
