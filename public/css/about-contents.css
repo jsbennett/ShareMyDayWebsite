@@ -92,12 +92,6 @@
 
 .picture-1 {
     grid-column: col 4 / span 2;
-    grid-row: row 1/ span 2;
-    background: #f2f9fc;
-}
-
-.picture-1 {
-    grid-column: col 4 / span 2;
     grid-row: row 1/ span 1;
     background: #f2f9fc;
 }
@@ -147,42 +141,54 @@ table.deadline-table-container thead th:first-child {
     .grid-container {
         display: grid;
         grid-template: repeat(4, [row] minmax(120px, 1fr)) / repeat(2, [col] 1fr);
-        grid-gap: 20px;
+        grid-gap: 5px;
     }
 
     .item-1 {
-        grid-column: col 1 / span 2;
-        grid-row: row 1 /span 2;
-        background: #f2f9fc;
-        opacity: 1;
+        grid-column: col 1 /span 2;
+        grid-row: row 1 / span 1;
+        background: #01396D;
+        opacity: 0.8;
     }
 
     .item-2 {
         grid-column: col 1 /span 2;
-        grid-row: row 1 / span 2;
+        grid-row: row 2 / span 1;
         background: #01396D;
         opacity: 0.8;
     }
 
     .item-3 {
-        grid-column: col 1/span 2;
-        grid-row: row 2 / span 2;
+        grid-column: col 1 /span 2;
+        grid-row: row 3 / span 1;
         background: #01396D;
-        z-index: 1;
         opacity: 0.8;
     }
 
     .item-4 {
-        grid-column: col 1 / span 2;
-        grid-row: row 3 / span 2;
-        background: #f2f9fc;
-        opacity: 1;
+        grid-column: col 1 /span 2;
+        grid-row: row 4 / span 1;
+        background: #01396D;
+        opacity: 0.8;
     }
 
-    .item-1 img,
-    .item-4 img {
-        object-fit: cover;
-        width: 100%;
-        max-height: 100%;
+    .picture-2 {
+        display: none;
     }
+
+    .picture-1 {
+        display: none;
+    }
+
+    table.deadline-table-container tbody td {
+        font-size: 15px;
+    }
+
+    table.deadline-table-container thead th {
+        font-size: 20px;
+        font-weight: bold;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
 }

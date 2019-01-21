@@ -11,7 +11,7 @@
 
 .picture-container {
     height: auto;
-    width: 30%;
+    width: 20%;
 }
 
 .grid-container {
@@ -105,11 +105,6 @@
 }
 
 @media screen and (max-width: 1223px) {
-
-    .picture-container {
-        height: auto;
-        width: 40%;
-    }
 
     .item-1 h1,
     .item-2 h1,
