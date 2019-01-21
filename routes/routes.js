@@ -12,4 +12,8 @@ router.get('/about', function (req, res, next) {
   res.render('about');
 });
 
+router.get('/contact-us', function (req, res, next) {
+  res.render('contact-us');
+});
+
 module.exports = router;
