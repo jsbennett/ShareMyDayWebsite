@@ -49,7 +49,6 @@
 .item-2 a,
 .item-3 a,
 .item-4 a {
-    text-decoration: none;
     color: white;
     font-weight: bold;
 }

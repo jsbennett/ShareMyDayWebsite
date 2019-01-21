@@ -8,16 +8,18 @@
     <link rel='stylesheet' href='/css/contact-us-contents.css' />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+<main>
 
-<body>
-    <div class="body-container">
-        <div class="nav-bar-container">
-            <% include partials/navbar.ejs %>
+    <body>
+        <div class="body-container">
+            <div class="nav-bar-container">
+                <% include partials/navbar.ejs %>
+            </div>
+            <div class="contents-container">
+                <% include partials/contact-us-contents.ejs %>
+            </div>
         </div>
-        <div class="contents-container">
-            <% include partials/contact-us-contents.ejs %>
-        </div>
-    </div>
-</body>
+    </body>
+</main>
 
 </html>

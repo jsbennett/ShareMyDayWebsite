@@ -16,13 +16,8 @@
     vertical-align: middle;
 }
 
-.about-span,
-.contact-us-span {
+.about-span {
     border-right: 3px solid #01396D;
-}
-
-.menu-option-container a {
-    text-decoration: none;
 }
 
 .about-span,
@@ -50,7 +45,7 @@
 
     .menu-option-container {
         display: inline-block;
-        font-size: 20px;
+        font-size: 30px;
         padding: 10px;
     }
 }
