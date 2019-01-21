@@ -163,4 +163,9 @@
         background: #01396D;
         opacity: 0.8;
     }
+
+    .picture-container {
+        height: auto;
+        width: 40%;
+    }
 }
